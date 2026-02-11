@@ -393,8 +393,8 @@ def build_combined_workbook_from_template(template_ws, header_row: int) -> Tuple
 # =========================
 # UI
 # =========================
-st.set_page_config(page_title="Web App Update Harga", layout="wide")
-st.title("Web App Update Harga")
+st.set_page_config(page_title="Web App Update Harga Bigseller", layout="wide")
+st.title("Web App Update Harga Bigseller")
 
 c1, c2, c3 = st.columns(3)
 with c1:
@@ -692,3 +692,4 @@ if process_btn:
             file_name="mass_update_results.zip",
             mime="application/zip"
         )
+
